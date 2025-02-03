@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    char a;
-    scanf("%c",&a);
+    char ch;
+    scanf("%c",&ch);
     if (ch>=97 && ch<=122){
         printf("Lowercase");
     }
