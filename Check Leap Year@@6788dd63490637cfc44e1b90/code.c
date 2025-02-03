@@ -11,8 +11,5 @@ int main() {
     else if(a%4==0){
         printf("Leap Year");
     }
-    else{
-        printf("np");
-    }
     return 0;
 }
