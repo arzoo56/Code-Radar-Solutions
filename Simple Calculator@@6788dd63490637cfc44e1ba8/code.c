@@ -1,18 +1,23 @@
 #include <stdio.h>
 int main() {
-    int a,b,c;
-    scanf("%d %d %c",&a,&b,&c);
-    if(c==+){
+    char operator;
+    int a,b;
+    scanf("%c",&operator);
+    scanf("%d %d ",&a,&b);
+    if(operator=='+'){
         printf("%d",a+b);
     }
-    else if(c==/){
-        printf("%d",a/b);
+    else if(operator=='-'){
+        printf("%d",a-b);
     }
-    else if(c==*){
+    else if(operator=='*'){
         printf("%d",a*b);
     }
-    else if(c==-){
-        printf("%d",a-b);
+    else if(operator=='/'){
+        printf("%d",a/b);
+    }
+    else{
+        printf("error");
     }
     return 0;
 }
