@@ -14,8 +14,5 @@ int main() {
     else if(c==-){
         printf("%d",a-b);
     }
-    else{
-        printf("no");
-    }
     return 0;
 }
