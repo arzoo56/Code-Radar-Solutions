@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    char operator;
+    char o;
     int a,b;
-    scanf("%d %d %c",&a,&b,&operator);
-    switch(operator){
+    scanf("%d %d %c",&a,&b,&o);
+    switch(o){
         case'+':
             printf("%d",a+b);
             break;
