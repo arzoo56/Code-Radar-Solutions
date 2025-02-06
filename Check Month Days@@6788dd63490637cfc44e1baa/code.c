@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a;
-    scanf("%d",&a);
+    int a,b;
+    scanf("%d %d",&a,&b);
     switch(a){
         case 1:
         printf("%d",31);
