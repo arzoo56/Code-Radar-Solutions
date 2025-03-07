@@ -7,10 +7,9 @@ int main(){
             if(i%2==0 || j%2==0){
                 printf("*");
             }
-        }
             else{
             printf(" ");
-        }
+        }}
     printf("\n");
     }
 return 0;
