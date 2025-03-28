@@ -1,4 +1,4 @@
-int isPrime(num){
+void isPrime(num){
     int count=0;
     for(int i=0;i<=num;i++){
         num%i==0;
