@@ -1,13 +1,10 @@
 int isPrime(int num){
-    int count=0;
-    for(int i=0;i<=num;i++){
-        num%i==0;
-        count++;
-    }
-    if(count==2){
+   
+    for(int i=0;i<=num/2;i++){
+        if(num%i==0){
+            return 0;
+        }
         return 1;
-    }
-    else{
-        return 0;
+      
     }
 }
