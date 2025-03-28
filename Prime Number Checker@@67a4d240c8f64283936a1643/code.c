@@ -7,6 +7,5 @@ int isPrime(int num){
             return 1;
         }
         // return 1;
-      
     }
 }
